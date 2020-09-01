@@ -33,6 +33,8 @@ namespace Infrastructure.Data.Entity_Framework.Repository.Base
             await _databaseContext.SaveChangesAsync();
         }
 
+
+
         public async Task<IQueryable<T>> ReadAllAsync()
         {
             return GetTable().AsNoTracking();
