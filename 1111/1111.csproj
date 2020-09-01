@@ -5,6 +5,14 @@
     <RootNamespace>_1111</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Core\Domain.Core.csproj" />
+    <ProjectReference Include="..\Domain.Interfaces\Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Infrastructure.Business\Infrastructure.Business.csproj" />
+    <ProjectReference Include="..\Infrastructure.Data\Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Services.Interfaces\Services.Interfaces.csproj" />
+  </ItemGroup>
+
 
 
 </Project>
