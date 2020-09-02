@@ -31,3 +31,15 @@ C:\Users\Student\Desktop\1111\Services.Interfaces\obj\Debug\netcoreapp3.1\Servic
 C:\Users\Student\Desktop\1111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.csproj.CopyComplete
 C:\Users\Student\Desktop\1111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.dll
 C:\Users\Student\Desktop\1111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.pdb
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\bin\Debug\netcoreapp3.1\Services.Interfaces.deps.json
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\bin\Debug\netcoreapp3.1\Services.Interfaces.dll
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\bin\Debug\netcoreapp3.1\Services.Interfaces.pdb
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\bin\Debug\netcoreapp3.1\Domain.Core.dll
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\bin\Debug\netcoreapp3.1\Domain.Core.pdb
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.csprojAssemblyReference.cache
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.AssemblyInfoInputs.cache
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.AssemblyInfo.cs
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.csproj.CopyComplete
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.dll
+C:\Users\xxxpinktriplesix\Desktop\11111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.pdb

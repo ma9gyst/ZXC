@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Data.SignalR
+namespace Infrastructure.Data.Hubs
 {
-    public class SignalRHub : Hub
+    public class ChatHub : Hub
     {
         public Task SendMessage(AppUser user, Message message) 
         {
