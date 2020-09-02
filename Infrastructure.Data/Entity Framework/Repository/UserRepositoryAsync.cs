@@ -8,16 +8,16 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data.Entity_Framework.Repository
 {
-    public class UserRepositoryAsync : AbstractBaseRepository<User>
+    public class UserRepositoryAsync : AbstractBaseRepository<AppUser>
     {
         public UserRepositoryAsync(DatabaseContext databaseContext) : base(databaseContext) {}
 
-        public override DbSet<User> GetTable()
+        public override DbSet<AppUser> GetTable()
         {
-            return _databaseContext.Users;
+            return _databaseContext.AppUsers;
         }
 
-        public async override Task<User> ReadAsync(int id)
+        public async override Task<AppUser> ReadAsync(int id)
         {
             return await _databaseContext.Users.FirstOrDefaultAsync(c => c.Id == id);
         }

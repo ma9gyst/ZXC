@@ -9,3 +9,14 @@ C:\Users\xxxpinktriplesix\Desktop\1111\Services.Interfaces\bin\Debug\netcoreapp3
 C:\Users\xxxpinktriplesix\Desktop\1111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.csproj.CopyComplete
 C:\Users\xxxpinktriplesix\Desktop\1111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.dll
 C:\Users\xxxpinktriplesix\Desktop\1111\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.pdb
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\bin\Debug\netcoreapp3.1\Services.Interfaces.deps.json
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\bin\Debug\netcoreapp3.1\Services.Interfaces.dll
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\bin\Debug\netcoreapp3.1\Services.Interfaces.pdb
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\bin\Debug\netcoreapp3.1\Domain.Core.dll
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\bin\Debug\netcoreapp3.1\Domain.Core.pdb
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.csprojAssemblyReference.cache
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.AssemblyInfoInputs.cache
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.AssemblyInfo.cs
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.csproj.CopyComplete
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.dll
+C:\Users\student\Source\Repos\ZXC\Services.Interfaces\obj\Debug\netcoreapp3.1\Services.Interfaces.pdb
