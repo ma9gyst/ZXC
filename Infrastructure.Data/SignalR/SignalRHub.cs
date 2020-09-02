@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data.SignalR
 {
-    class SignalR : Hub
+    public class SignalRHub : Hub
     {
         public Task SendMessage(AppUser user, Message message) 
         {

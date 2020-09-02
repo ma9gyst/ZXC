@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Source\\Repos\\ZXC\\1111\\1111.csproj": {}
+    "C:\\Users\\Student\\Desktop\\1111\\1111\\1111.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Source\\Repos\\ZXC\\1111\\1111.csproj": {
+    "C:\\Users\\Student\\Desktop\\1111\\1111\\1111.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Source\\Repos\\ZXC\\1111\\1111.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\1111\\1111\\1111.csproj",
         "projectName": "1111",
-        "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\1111\\1111.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\1111\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\1111\\1111\\1111.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\1111\\1111\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,20 +27,20 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj"
               },
-              "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj"
+              "C:\\Users\\Student\\Desktop\\1111\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Domain.Interfaces\\Domain.Interfaces.csproj"
               },
-              "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj": {
-                "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj"
+              "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\Infrastructure.Business.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\Infrastructure.Business.csproj"
               },
-              "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj": {
-                "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj"
+              "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Data\\Infrastructure.Data.csproj"
               },
-              "C:\\Users\\student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj"
+              "C:\\Users\\Student\\Desktop\\1111\\Services.Interfaces\\Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Services.Interfaces\\Services.Interfaces.csproj"
               }
             }
           }
@@ -53,24 +53,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -93,17 +75,17 @@
         }
       }
     },
-    "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
+    "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,20 +108,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -159,17 +127,17 @@
         }
       }
     },
-    "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+    "C:\\Users\\Student\\Desktop\\1111\\Domain.Interfaces\\Domain.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\1111\\Domain.Interfaces\\Domain.Interfaces.csproj",
         "projectName": "Domain.Interfaces",
-        "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\1111\\Domain.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -182,8 +150,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -196,20 +164,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -229,17 +183,17 @@
         }
       }
     },
-    "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj": {
+    "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\Infrastructure.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\Infrastructure.Business.csproj",
         "projectName": "Infrastructure.Business",
-        "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\Infrastructure.Business.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -262,20 +216,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -295,17 +235,17 @@
         }
       }
     },
-    "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+    "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Data\\Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Data\\Infrastructure.Data.csproj",
         "projectName": "Infrastructure.Data",
-        "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Data\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -318,14 +258,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj"
               },
-              "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj"
+              "C:\\Users\\Student\\Desktop\\1111\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Domain.Interfaces\\Domain.Interfaces.csproj"
               },
-              "C:\\Users\\student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj"
+              "C:\\Users\\Student\\Desktop\\1111\\Services.Interfaces\\Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Services.Interfaces\\Services.Interfaces.csproj"
               }
             }
           }
@@ -339,21 +279,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
             "Microsoft.AspNetCore.SignalR.Core": {
               "target": "Package",
               "version": "[1.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -375,17 +307,17 @@
         }
       }
     },
-    "C:\\Users\\student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {
+    "C:\\Users\\Student\\Desktop\\1111\\Services.Interfaces\\Services.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\1111\\Services.Interfaces\\Services.Interfaces.csproj",
         "projectName": "Services.Interfaces",
-        "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Services.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Services.Interfaces\\Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\1111\\Services.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -398,8 +330,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -412,20 +344,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

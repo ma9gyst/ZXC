@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj": {}
+    "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\Infrastructure.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj": {
+    "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\Infrastructure.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\Infrastructure.Business.csproj",
         "projectName": "Infrastructure.Business",
-        "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\Infrastructure.Business.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\1111\\Infrastructure.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,20 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
