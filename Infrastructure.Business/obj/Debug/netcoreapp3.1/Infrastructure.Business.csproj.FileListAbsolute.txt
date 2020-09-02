@@ -6,3 +6,11 @@ C:\Users\student\Source\Repos\ZXC\Infrastructure.Business\obj\Debug\netcoreapp3.
 C:\Users\student\Source\Repos\ZXC\Infrastructure.Business\bin\Debug\netcoreapp3.1\Infrastructure.Business.pdb
 C:\Users\student\Source\Repos\ZXC\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.dll
 C:\Users\student\Source\Repos\ZXC\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.pdb
+C:\Users\Student\Desktop\1111\Infrastructure.Business\bin\Debug\netcoreapp3.1\Infrastructure.Business.deps.json
+C:\Users\Student\Desktop\1111\Infrastructure.Business\bin\Debug\netcoreapp3.1\Infrastructure.Business.dll
+C:\Users\Student\Desktop\1111\Infrastructure.Business\bin\Debug\netcoreapp3.1\Infrastructure.Business.pdb
+C:\Users\Student\Desktop\1111\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\1111\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\1111\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.AssemblyInfo.cs
+C:\Users\Student\Desktop\1111\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.dll
+C:\Users\Student\Desktop\1111\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.pdb
