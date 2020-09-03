@@ -117,7 +117,6 @@ C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Domain.Interfaces
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Domain.Core.pdb
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Infrastructure.Data.pdb
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Domain.Interfaces.pdb
-C:\Users\student\Source\Repos\ZXC\1111\obj\Debug\netcoreapp3.1\1111.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Infrastructure.Business.dll
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Services.Interfaces.dll
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Services.Interfaces.pdb
@@ -526,3 +525,4 @@ C:\Users\xxxpinktriplesix\Desktop\11111\1111\obj\Debug\netcoreapp3.1\1111.csproj
 C:\Users\xxxpinktriplesix\Desktop\11111\1111\obj\Debug\netcoreapp3.1\1111.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\Student\Source\Repos\ZXC\1111\obj\Debug\netcoreapp3.1\Razor\Views\Chat\Chat.cshtml.g.cs
+C:\Users\Student\Source\Repos\ZXC\1111\obj\Debug\netcoreapp3.1\1111.MvcApplicationPartsAssemblyInfo.cache

@@ -1,6 +1,7 @@
 ﻿"use strict";
 
 $(document).ready(() => {
+    console.log($('#messagesList'));
     var connection = new signalR.HubConnectionBuilder()
         .withUrl("/chathub")
         .withAutomaticReconnect()
@@ -10,14 +11,15 @@ $(document).ready(() => {
     document.getElementById("sendButton").disabled = true;
 
     connection.on("ReceiveMessage", function (user, message) {
-        var msg = message.Msg.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-        //var msg1 = message.Msg.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        var msg = message.msg.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-        var encodedMsg = user = { Username: user } + ": " + msg;
-        var li = document.createElement("li");
+        const msgsList = document.getElementById('messagesList');
+        let li = document.createElement('li');
+        var encodedMsg = user.userName + ": " + msg;
         li.textContent = encodedMsg;
-        document.getElementById("messagesList").appendChild(li);
+        msgsList.append(li);
+        $('#messagesList"').append(`<li>${encodedMsg}</li>`);
     });
 
     connection.start().then(function () {
@@ -29,7 +31,7 @@ $(document).ready(() => {
     document.getElementById("sendButton").addEventListener("click", function (event) {
         var user = document.getElementById("userInput").value;
         var message = document.getElementById("messageInput").value;
-        connection.invoke("SendMessage", user = { Username: user }, message = { msg: message}).catch(function (err) {
+        connection.invoke("SendMessage", { Username: user }, { msg: message}).catch(function (err) {
             return console.error(err.toString());
         });
         event.preventDefault();
