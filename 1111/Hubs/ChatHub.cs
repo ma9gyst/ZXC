@@ -5,13 +5,13 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Data.Hubs
+namespace _1111.Hubs
 {
     public class ChatHub : Hub
     {
-        public Task SendMessage(AppUser user, Message message) 
+        public async Task SendMessage(AppUser user, Message message) 
         {
-            return Clients.All.SendAsync("ReceiveMessage", user, message);
+            await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
     }
 }

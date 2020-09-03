@@ -2759,7 +2759,6 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.7",
           "Microsoft.AspNetCore.SignalR.Core": "1.1.0",
           "Microsoft.EntityFrameworkCore": "3.1.7",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
           "Services.Interfaces": "1.0.0"
         },
         "compile": {
@@ -8895,25 +8894,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\1111\\1111.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC\\1111\\1111.csproj",
       "projectName": "1111",
-      "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\1111\\1111.csproj",
-      "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\1111\\obj\\",
+      "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\1111\\1111.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\1111\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\xxxpinktriplesix\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8925,20 +8919,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\Domain.Core\\Domain.Core.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\Domain.Core\\Domain.Core.csproj"
+            "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
             },
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\Domain.Interfaces\\Domain.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\Domain.Interfaces\\Domain.Interfaces.csproj"
+            "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj"
             },
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\Infrastructure.Business\\Infrastructure.Business.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\Infrastructure.Business\\Infrastructure.Business.csproj"
+            "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj": {
+              "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj"
             },
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\Infrastructure.Data\\Infrastructure.Data.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\Infrastructure.Data\\Infrastructure.Data.csproj"
+            "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj"
             },
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\Services.Interfaces\\Services.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\11111\\Services.Interfaces\\Services.Interfaces.csproj"
+            "C:\\Users\\Student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj"
             }
           }
         }
@@ -8979,7 +8973,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

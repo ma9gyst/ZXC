@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Domain.Core.Entities
 {
-    public class AppUser:IdentityUser<int>
+    public class AppUser : IdentityUser<int>
     {   
        public string Picture { get; set; }
        public DateTime RegistrationDate { get; set; }

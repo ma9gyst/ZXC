@@ -121,7 +121,6 @@ C:\Users\student\Source\Repos\ZXC\1111\obj\Debug\netcoreapp3.1\1111.MvcApplicati
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Infrastructure.Business.dll
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Services.Interfaces.dll
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Services.Interfaces.pdb
-C:\Users\student\Source\Repos\ZXC\1111\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -525,3 +524,5 @@ C:\Users\xxxpinktriplesix\Desktop\11111\1111\obj\Debug\netcoreapp3.1\1111.pdb
 C:\Users\xxxpinktriplesix\Desktop\11111\1111\obj\Debug\netcoreapp3.1\1111.genruntimeconfig.cache
 C:\Users\xxxpinktriplesix\Desktop\11111\1111\obj\Debug\netcoreapp3.1\1111.csproj.CoreCompileInputs.cache
 C:\Users\xxxpinktriplesix\Desktop\11111\1111\obj\Debug\netcoreapp3.1\1111.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student\Source\Repos\ZXC\1111\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Student\Source\Repos\ZXC\1111\obj\Debug\netcoreapp3.1\Razor\Views\Chat\Chat.cshtml.g.cs
