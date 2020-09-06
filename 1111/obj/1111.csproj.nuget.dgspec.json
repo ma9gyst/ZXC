@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Source\\Repos\\ZXC\\1111\\1111.csproj": {}
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\1111\\1111.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Source\\Repos\\ZXC\\1111\\1111.csproj": {
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\1111\\1111.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC\\1111\\1111.csproj",
+        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\1111\\1111.csproj",
         "projectName": "1111",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\1111\\1111.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\1111\\obj\\",
+        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\1111\\1111.csproj",
+        "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\1111\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\xxxpinktriplesix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -27,20 +31,20 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj"
               },
-              "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj"
               },
-              "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Business\\Infrastructure.Business.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Business\\Infrastructure.Business.csproj"
               },
-              "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\Infrastructure.Data.csproj"
               },
-              "C:\\Users\\Student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj"
               }
             }
           }
@@ -85,22 +89,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\obj\\",
+        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\xxxpinktriplesix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -151,22 +159,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj",
         "projectName": "Domain.Interfaces",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\xxxpinktriplesix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -178,8 +190,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -221,22 +233,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj": {
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Business\\Infrastructure.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
+        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Business\\Infrastructure.Business.csproj",
         "projectName": "Infrastructure.Business",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Business\\obj\\",
+        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Business\\Infrastructure.Business.csproj",
+        "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\xxxpinktriplesix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -287,22 +303,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\Infrastructure.Data.csproj",
         "projectName": "Infrastructure.Data",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Infrastructure.Data\\obj\\",
+        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\xxxpinktriplesix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -314,14 +334,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj"
               },
-              "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj"
               },
-              "C:\\Users\\Student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj"
               }
             }
           }
@@ -363,22 +383,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj",
         "projectName": "Services.Interfaces",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Services.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\xxxpinktriplesix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -390,8 +414,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -433,7 +457,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

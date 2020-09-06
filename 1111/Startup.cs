@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using _1111.Hubs;
+using Infrastructure.Data.Entity_Framework;
+using Infrastructure.Data.Entity_Framework.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,6 +28,14 @@ namespace _1111
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            // получаем строку подключения из файла конфигурации
+            string connection = Configuration.GetConnectionString("DefaultConnection");
+            // добавляем контекст MobileContext в качестве сервиса в приложение
+            services.AddDbContext<DatabaseContext>(options =>
+                options.UseSqlServer(connection));
+
+            services.AddScoped<HeroRepositoryAsync>();
             services.AddSignalR();
         }
 

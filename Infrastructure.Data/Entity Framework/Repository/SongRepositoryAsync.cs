@@ -10,7 +10,7 @@ namespace Infrastructure.Data.Entity_Framework.Repository
 {
     public class SongRepositoryAsync : AbstractBaseRepository<Song>
     {
-        public SongRepositoryAsync(DatabaseContext databaseContext) : base(databaseContext) {}
+        public SongRepositoryAsync(DatabaseContext databaseContext) : base(databaseContext) { }
 
         public override DbSet<Song> GetTable()
         {

@@ -31,3 +31,12 @@ C:\Users\xxxpinktriplesix\Desktop\11111\Domain.Core\obj\Debug\netcoreapp3.1\Doma
 C:\Users\xxxpinktriplesix\Desktop\11111\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.csproj.CoreCompileInputs.cache
 C:\Users\xxxpinktriplesix\Desktop\11111\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.dll
 C:\Users\xxxpinktriplesix\Desktop\11111\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.pdb
+C:\Users\xxxpinktriplesix\Desktop\1212121212\Domain.Core\bin\Debug\netcoreapp3.1\Domain.Core.deps.json
+C:\Users\xxxpinktriplesix\Desktop\1212121212\Domain.Core\bin\Debug\netcoreapp3.1\Domain.Core.dll
+C:\Users\xxxpinktriplesix\Desktop\1212121212\Domain.Core\bin\Debug\netcoreapp3.1\Domain.Core.pdb
+C:\Users\xxxpinktriplesix\Desktop\1212121212\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.csprojAssemblyReference.cache
+C:\Users\xxxpinktriplesix\Desktop\1212121212\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.AssemblyInfoInputs.cache
+C:\Users\xxxpinktriplesix\Desktop\1212121212\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.AssemblyInfo.cs
+C:\Users\xxxpinktriplesix\Desktop\1212121212\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\xxxpinktriplesix\Desktop\1212121212\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.dll
+C:\Users\xxxpinktriplesix\Desktop\1212121212\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.pdb

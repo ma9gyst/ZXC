@@ -10,7 +10,7 @@ namespace Infrastructure.Data.Entity_Framework.Repository
 {
     public class NewsRepositoryAsync : AbstractBaseRepository<News>
     {
-        public NewsRepositoryAsync(DatabaseContext databaseContext) : base(databaseContext) {}
+        public NewsRepositoryAsync(DatabaseContext databaseContext) : base(databaseContext) { }
 
         public override DbSet<News> GetTable()
         {

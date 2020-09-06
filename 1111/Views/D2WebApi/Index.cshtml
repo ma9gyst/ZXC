@@ -1,0 +1,21 @@
+﻿@model List<Domain.Core.Entities.OpenDotaEntities.Hero>
+
+@foreach (var Hero in Model)
+{
+    @*<table>
+        <tr>*@
+            @*<td align="center">*@<img style="margin: 3px 3px 3px; height: 70px" src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@Hero.FormatedName}_lg.png" alt="@Hero.LocalizedName">@*</td>*@
+            @*<td align="center" width="40"><p>@Hero.Id</p></td>
+            <td align="center" width="300"><p>@Hero.Name</p></td>
+            <td align="center" width="200"><p>@Hero.LocalizedName</p></td>
+            <td align="center" width="100"><p>@Hero.PrimaryAttr</p></td>
+            <td align="center" width="100"><p>@Hero.AttackType</p></td>
+            <td align="center">
+                @foreach (var role in Hero.Roles)
+                {
+                    <span>@role</span>
+                }
+            </td>*@
+        @*</tr>
+    </table>*@
+}

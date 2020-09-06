@@ -10,7 +10,7 @@ namespace Infrastructure.Data.Entity_Framework.Repository
 {
     public class MessageRepositoryAsync : AbstractBaseRepository<Message>
     {
-        public MessageRepositoryAsync(DatabaseContext databaseContext) : base(databaseContext) {}
+        public MessageRepositoryAsync(DatabaseContext databaseContext) : base(databaseContext) { }
 
         public override DbSet<Message> GetTable()
         {

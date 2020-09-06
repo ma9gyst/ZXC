@@ -16,7 +16,7 @@ $(document).ready(() => {
 
         const msgsList = document.getElementById('messagesList');
         let li = document.createElement('li');
-        var encodedMsg = user.userName + ": " + msg;
+        var encodedMsg = /*user.userName + ": " +*/ msg;
         li.textContent = encodedMsg;
         msgsList.append(li);
         $('#messagesList"').append(`<li>${encodedMsg}</li>`);
@@ -29,9 +29,9 @@ $(document).ready(() => {
     });
 
     document.getElementById("sendButton").addEventListener("click", function (event) {
-        var user = document.getElementById("userInput").value;
+        //var user = document.getElementById("userInput").value;
         var message = document.getElementById("messageInput").value;
-        connection.invoke("SendMessage", { Username: user }, { msg: message}).catch(function (err) {
+        connection.invoke("SendMessage", /*{ Username: user },*/ { msg: message}).catch(function (err) {
             return console.error(err.toString());
         });
         event.preventDefault();

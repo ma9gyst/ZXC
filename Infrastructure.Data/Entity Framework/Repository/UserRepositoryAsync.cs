@@ -10,7 +10,7 @@ namespace Infrastructure.Data.Entity_Framework.Repository
 {
     public class UserRepositoryAsync : AbstractBaseRepository<AppUser>
     {
-        public UserRepositoryAsync(DatabaseContext databaseContext) : base(databaseContext) {}
+        public UserRepositoryAsync(DatabaseContext databaseContext) : base(databaseContext) { }
 
         public override DbSet<AppUser> GetTable()
         {
