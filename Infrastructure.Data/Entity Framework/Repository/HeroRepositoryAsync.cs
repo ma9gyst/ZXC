@@ -27,5 +27,11 @@ namespace Infrastructure.Data.Entity_Framework.Repository
             await _databaseContext.AddRangeAsync(heroes);
             await _databaseContext.SaveChangesAsync();
         }
+
+        public async Task DeleteAllAsync()
+        {
+            _databaseContext.Heroes.RemoveRange(_databaseContext.Heroes);
+            await _databaseContext.SaveChangesAsync();
+        }
     }
 }
