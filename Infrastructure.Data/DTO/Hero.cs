@@ -3,8 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
+using System.Text.Json.Serialization;
 
-namespace Domain.Core.Entities.OpenDotaEntities
+namespace Infrastructure.Data.DTO
 {
     public class Hero
     {
@@ -18,10 +19,11 @@ namespace Domain.Core.Entities.OpenDotaEntities
         public string PrimaryAttr { get; set; }
         [JsonProperty("attack_type")]
         public string AttackType { get; set; }
+        public List<Matchup> Matchups { get; set; } = new List<Matchup>();
         [JsonProperty("roles")]
         [NotMapped]
         public string[] Roles { get; set; }
-        public string FormatedName { get; set; }
-        //public string pictureUri { get; set; }
+        public string FormattedName { get; set; }
+        //public string PictureUri { get; set; }
     }
 }

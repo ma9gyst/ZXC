@@ -1,7 +1,6 @@
 ﻿"use strict";
 
 $(document).ready(() => {
-    console.log($('#messagesList'));
     var connection = new signalR.HubConnectionBuilder()
         .withUrl("/chathub")
         .withAutomaticReconnect()

@@ -5,7 +5,7 @@ using System.Text;
 using Domain.Core.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
-using Domain.Core.Entities.OpenDotaEntities;
+using Infrastructure.Data.DTO;
 
 namespace Infrastructure.Data.Entity_Framework
 {
@@ -18,6 +18,7 @@ namespace Infrastructure.Data.Entity_Framework
         public DbSet<Song> Songs { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Hero> Heroes { get; set; }
+        public DbSet<Matchup> Matchups { get; set; }
 
         public DatabaseContext(DbContextOptions<DatabaseContext> options)
           : base(options)

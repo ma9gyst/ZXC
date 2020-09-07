@@ -1,21 +1,39 @@
-﻿@model List<Domain.Core.Entities.OpenDotaEntities.Hero>
+﻿@model List<Infrastructure.Data.DTO.Hero>
 
-@foreach (var Hero in Model)
-{
-    @*<table>
-        <tr>*@
-            @*<td align="center">*@<img style="margin: 3px 3px 3px; height: 70px" src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@Hero.FormatedName}_lg.png" alt="@Hero.LocalizedName">@*</td>*@
-            @*<td align="center" width="40"><p>@Hero.Id</p></td>
-            <td align="center" width="300"><p>@Hero.Name</p></td>
-            <td align="center" width="200"><p>@Hero.LocalizedName</p></td>
-            <td align="center" width="100"><p>@Hero.PrimaryAttr</p></td>
-            <td align="center" width="100"><p>@Hero.AttackType</p></td>
-            <td align="center">
-                @foreach (var role in Hero.Roles)
-                {
-                    <span>@role</span>
-                }
-            </td>*@
-        @*</tr>
-    </table>*@
+@{
+    List<Infrastructure.Data.DTO.Hero> strList = new List<Infrastructure.Data.DTO.Hero>();
+    List<Infrastructure.Data.DTO.Hero> agiList = new List<Infrastructure.Data.DTO.Hero>();
+    List<Infrastructure.Data.DTO.Hero> intList = new List<Infrastructure.Data.DTO.Hero>();
+
+    foreach (var hero in Model)
+    {
+        if (hero.PrimaryAttr == "str")
+            strList.Add(hero);
+        else if (hero.PrimaryAttr == "agi")
+            agiList.Add(hero);
+        else if (hero.PrimaryAttr == "int")
+            intList.Add(hero);
+    };
 }
+
+<div>
+    <div style="margin: 30px">
+        <img style="float: left" src="~/images/strAttrSym.png" alt="strAttrSym.png">
+        <h4>Strength</h4>
+    </div>
+    <partial name="_HeroListPartialView" model="@strList" />
+</div>
+<div>
+    <div style="margin: 30px">
+        <img style="float: left" src="~/images/agiAttrSym.png" alt="agiAttrSym.png">
+        <h4>Agility</h4>
+    </div>
+    <partial name="_HeroListPartialView" model="@agiList" />
+</div>
+<div>
+    <div style="margin: 30px">
+        <img style="float: left" src="~/images/intAttrSym.png" alt="intAttrSym.png">
+        <h4>Intelengince </h4>
+    </div>
+    <partial name="_HeroListPartialView" model="@intList" />
+</div>

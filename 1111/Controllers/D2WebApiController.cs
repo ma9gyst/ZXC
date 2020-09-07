@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using Domain.Core.Entities;
-using Domain.Core.Entities.OpenDotaEntities;
+using Infrastructure.Data.DTO;
 using Infrastructure.Data.Entity_Framework.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -16,6 +16,7 @@ namespace _1111.Controllers
     public class D2WebApiController : Controller
     {
         //private static readonly string _D2WebApiKey = "FBAA6EB0E7809A9010E7A5D0AE33EFB6";
+        //private static readonly string _D2WebApiId = "205790";
         private readonly HeroRepositoryAsync _heroRepositoryAsync;
 
         public D2WebApiController(HeroRepositoryAsync heroRepositoryAsync)
@@ -25,7 +26,7 @@ namespace _1111.Controllers
 
         public async Task<IActionResult> Index()
         {
-            //string urlD2WebApi = "http://api.steampowered.com/IEconDOTA2_205790/GetHeroes/v1";
+            //string urlD2WebApi = "http://api.steampowered.com/IEconDOTA2_/GetHeroes/v1";
 
 
             //UriBuilder uriBuilder = new UriBuilder(urlOpenDota);
@@ -42,26 +43,56 @@ namespace _1111.Controllers
             return View(_heroRepositoryAsync.GetTable().ToList());
         }
 
-        public async Task GetHeroes() 
+        public async Task<IActionResult> HeroInfo(int id)
+        {
+            List<Matchup> matchups = new List<Matchup>();
+            string url = $"https://api.opendota.com/api/heroes/{id}/matchups";
+
+            using (var httpClient = new HttpClient())
+            {
+                using var response = await httpClient.GetAsync(url);
+                string apiResponse = await response.Content.ReadAsStringAsync();
+                matchups = JsonConvert.DeserializeObject<List<Matchup>>(apiResponse);
+            }
+
+            ViewData["Matchups"] = matchups;
+            return View(await _heroRepositoryAsync.ReadAsync(id));
+        }
+
+        public async Task GetHeroes()
         {
             await _heroRepositoryAsync.DeleteAllAsync();
 
             List<Hero> heroes;
-            const string url = "https://api.opendota.com/api/heroes";
-            
+            string url = "https://api.opendota.com/api/heroes";
+
             using (var httpClient = new HttpClient())
             {
-                using (var response = await httpClient.GetAsync(url))
-                {
-                    string apiResponse = await response.Content.ReadAsStringAsync();
-                    heroes = JsonConvert.DeserializeObject<List<Hero>>(apiResponse);
-                }
+                using var response = await httpClient.GetAsync(url);
+                string apiResponse = await response.Content.ReadAsStringAsync();
+                heroes = JsonConvert.DeserializeObject<List<Hero>>(apiResponse);
             }
 
             foreach (var hero in heroes)
             {
+                //List<Matchup> matchups = new List<Matchup>();
+                //url = $"https://api.opendota.com/api/heroes/{hero.Id}/matchups";
+
+                //using (var httpClient = new HttpClient())
+                //{
+                //    using var response = await httpClient.GetAsync(url);
+                //    try
+                //    {
+                //        string apiResponse = await response.Content.ReadAsStringAsync();
+                //        matchups = JsonConvert.DeserializeObject<List<Matchup>>(apiResponse);
+                //    }
+                //    catch (Exception ex) { Console.WriteLine(ex.Message + hero, ); };
+                //}
+
+                //hero.Matchups.AddRange(matchups);
+
                 hero.Id = 0;
-                hero.FormatedName = hero.Name.Replace("npc_dota_hero_", "").ToLower();
+                hero.FormattedName = hero.Name.Replace("npc_dota_hero_", "").ToLower();
             }
 
             await _heroRepositoryAsync.WriteAll(heroes);

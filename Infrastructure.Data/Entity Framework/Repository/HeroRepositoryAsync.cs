@@ -1,4 +1,4 @@
-﻿using Domain.Core.Entities.OpenDotaEntities;
+﻿using Infrastructure.Data.DTO;
 using Infrastructure.Data.Entity_Framework.Repository.Base;
 using Microsoft.EntityFrameworkCore;
 using System;
