@@ -1,4 +1,4 @@
-﻿using Infrastructure.Data.DTO;
+﻿using Domain.Core.Entities;
 using Infrastructure.Data.Entity_Framework.Repository.Base;
 using Microsoft.EntityFrameworkCore;
 using System;

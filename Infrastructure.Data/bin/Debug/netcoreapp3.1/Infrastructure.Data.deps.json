@@ -12,8 +12,7 @@
           "Domain.Interfaces": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.7",
           "Microsoft.AspNetCore.SignalR.Core": "1.1.0",
-          "Microsoft.EntityFrameworkCore": "3.1.7",
-          "Services.Interfaces": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "3.1.7"
         },
         "runtime": {
           "Infrastructure.Data.dll": {}
@@ -1100,17 +1099,6 @@
         "runtime": {
           "Domain.Interfaces.dll": {}
         }
-      },
-      "Services.Interfaces/1.0.0": {
-        "dependencies": {
-          "Domain.Core": "1.0.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.7",
-          "Microsoft.EntityFrameworkCore": "3.1.7",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7"
-        },
-        "runtime": {
-          "Services.Interfaces.dll": {}
-        }
       }
     }
   },
@@ -1882,11 +1870,6 @@
       "sha512": ""
     },
     "Domain.Interfaces/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Services.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

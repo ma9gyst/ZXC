@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "AutoMapper/10.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
       "jQuery/3.5.1": {
         "type": "package"
       },
@@ -428,7 +441,7 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -1929,20 +1942,13 @@
           "ref/netstandard1.5/System.Reflection.dll": {}
         }
       },
-      "System.Reflection.Emit/4.3.0": {
+      "System.Reflection.Emit/4.7.0": {
         "type": "package",
-        "dependencies": {
-          "System.IO": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.0"
-        },
         "compile": {
-          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
+          "ref/netcoreapp2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reflection.Emit.dll": {}
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Reflection.Emit.ILGeneration/4.3.0": {
@@ -1953,7 +1959,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
+          "ref/netstandard1.0/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
@@ -2761,8 +2767,7 @@
           "Domain.Interfaces": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.7",
           "Microsoft.AspNetCore.SignalR.Core": "1.1.0",
-          "Microsoft.EntityFrameworkCore": "3.1.7",
-          "Services.Interfaces": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "3.1.7"
         },
         "compile": {
           "bin/placeholder/Infrastructure.Data.dll": {}
@@ -2771,11 +2776,25 @@
           "bin/placeholder/Infrastructure.Data.dll": {}
         }
       },
+      "Services.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AutoMapper": "10.0.0",
+          "Services.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Data.dll": {}
+        }
+      },
       "Services.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Domain.Core": "1.0.0",
+          "Infrastructure.Data": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.7",
           "Microsoft.EntityFrameworkCore": "3.1.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7"
@@ -2790,6 +2809,22 @@
     }
   },
   "libraries": {
+    "AutoMapper/10.0.0": {
+      "sha512": "T09NoqMZBqw0/JEauXulxnmmerl0Zj03e0r6VCcJ0LURWBIaYxZPPoiDv8bHf5Y4x2xcXJp4JPXoCaeOMJfHEA==",
+      "type": "package",
+      "path": "automapper/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.10.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
     "jQuery/3.5.1": {
       "sha512": "ji6sm/AI0vjASXAA/AG9Yf5ypALAqIDXFFKPHMAnFL8kp3xqULIWhACjg/OXZP88C56frYlIej2nrdBnhTMYQQ==",
       "type": "package",
@@ -3247,10 +3282,10 @@
         "microsoft.codeanalysis.workspaces.common.nuspec"
       ]
     },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
-      "path": "microsoft.csharp/4.5.0",
+      "path": "microsoft.csharp/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3263,6 +3298,7 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -3272,7 +3308,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -6652,26 +6688,34 @@
         "system.reflection.nuspec"
       ]
     },
-    "System.Reflection.Emit/4.3.0": {
-      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+    "System.Reflection.Emit/4.7.0": {
+      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
       "type": "package",
-      "path": "system.reflection.emit/4.3.0",
+      "path": "system.reflection.emit/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
-        "lib/monotouch10/_._",
+        "lib/MonoTouch10/_._",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Reflection.Emit.dll",
+        "lib/netstandard1.1/System.Reflection.Emit.xml",
         "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.xml",
+        "lib/netstandard2.1/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
         "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
         "ref/netstandard1.1/System.Reflection.Emit.dll",
         "ref/netstandard1.1/System.Reflection.Emit.xml",
         "ref/netstandard1.1/de/System.Reflection.Emit.xml",
@@ -6683,9 +6727,19 @@
         "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.xml",
+        "ref/netstandard2.1/_._",
+        "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "system.reflection.emit.4.3.0.nupkg.sha512",
-        "system.reflection.emit.nuspec"
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
+        "system.reflection.emit.4.7.0.nupkg.sha512",
+        "system.reflection.emit.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
@@ -8902,6 +8956,11 @@
       "path": "../Infrastructure.Data/Infrastructure.Data.csproj",
       "msbuildProject": "../Infrastructure.Data/Infrastructure.Data.csproj"
     },
+    "Services.Data/1.0.0": {
+      "type": "project",
+      "path": "../Services.Data/Services.Data.csproj",
+      "msbuildProject": "../Services.Data/Services.Data.csproj"
+    },
     "Services.Interfaces/1.0.0": {
       "type": "project",
       "path": "../Services.Interfaces/Services.Interfaces.csproj",
@@ -8910,36 +8969,33 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "AutoMapper >= 10.0.0",
       "Domain.Core >= 1.0.0",
       "Domain.Interfaces >= 1.0.0",
       "Infrastructure.Business >= 1.0.0",
       "Infrastructure.Data >= 1.0.0",
       "Microsoft.AspNetCore.SignalR.Core >= 1.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
+      "Services.Data >= 1.0.0",
       "Services.Interfaces >= 1.0.0",
       "jQuery >= 3.5.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\1111\\1111.csproj",
+      "projectUniqueName": "C:\\Users\\student\\source\\repos\\ZXC\\1111\\1111.csproj",
       "projectName": "1111",
-      "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\1111\\1111.csproj",
-      "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\1111\\obj\\",
+      "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\1111\\1111.csproj",
+      "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\student\\source\\repos\\ZXC\\1111\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\xxxpinktriplesix\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8951,20 +9007,23 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj"
+            "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
             },
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj"
+            "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj"
             },
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Business\\Infrastructure.Business.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Business\\Infrastructure.Business.csproj"
+            "C:\\Users\\student\\source\\repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj": {
+              "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj"
             },
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\Infrastructure.Data.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\Infrastructure.Data.csproj"
+            "C:\\Users\\student\\source\\repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj"
             },
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj"
+            "C:\\Users\\student\\source\\repos\\ZXC\\Services.Data\\Services.Data.csproj": {
+              "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Services.Data\\Services.Data.csproj"
+            },
+            "C:\\Users\\student\\source\\repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj"
             }
           }
         }
@@ -8978,6 +9037,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[10.0.0, )"
+          },
           "Microsoft.AspNetCore.SignalR.Core": {
             "target": "Package",
             "version": "[1.1.0, )"
@@ -9009,7 +9072,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

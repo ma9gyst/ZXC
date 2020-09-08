@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Infrastructure.Data.DTO
 {
-    public class Matchup
+    public class MatchupDto
     {
         public int Id { get; set; }
         [JsonProperty("hero_id")]

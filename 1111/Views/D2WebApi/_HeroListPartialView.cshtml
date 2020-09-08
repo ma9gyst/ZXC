@@ -1,8 +1,8 @@
-﻿@model List<Infrastructure.Data.DTO.Hero>
+﻿@*@model List<Infrastructure.Data.DTO.Hero>
 
 @foreach (var Hero in Model)
 {
     <a asp-controller="D2WebApi" asp-action="HeroInfo" asp-route-id=@Hero.Id>
         <img style="margin: 3px 3px 3px; height: 70px" src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@Hero.FormattedName}_lg.png" alt="@Hero.LocalizedName">
     </a>
-}
+}*@

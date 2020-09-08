@@ -1,11 +1,10 @@
-﻿@model Infrastructure.Data.DTO.Hero
+﻿@model _1111.ViewModels.HeroInfoViewModel
 
 @{
     ViewData["Title"] = "HeroInfo";
-    List<Infrastructure.Data.DTO.Matchup> matchups = ViewData["Matchups"] as List<Infrastructure.Data.DTO.Matchup>;
 }
 
-<div>
+@*<div>
     <h4>@Model.LocalizedName</h4>
     <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@Model.FormattedName}_vert.jpg" alt="@Model.LocalizedName">
     <hr />
@@ -14,10 +13,11 @@
 <div>
     @foreach (var matchup in matchups)
     {
+        var percentage = ((double)matchup.Wins / matchup.GamesPlayed) * 100;
         <p>Hero: @matchup.HeroId</p>
         <p>Games played: @matchup.GamesPlayed</p>
         <p>Wins: @matchup.Wins</p>
-        <p>Win rate: @((matchup.Wins / matchup.GamesPlayed) * 100)%</p>
+        <p>Win rate: @percentage%</p>
     }
     <a asp-action="Index">Back</a>
-</div>
+</div>*@
