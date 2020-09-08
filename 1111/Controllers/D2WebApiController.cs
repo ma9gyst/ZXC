@@ -18,12 +18,12 @@ namespace _1111.Controllers
     {
         //private static readonly string _D2WebApiKey = "FBAA6EB0E7809A9010E7A5D0AE33EFB6";
         //private static readonly string _D2WebApiId = "205790";
-        readonly IHeroService heroService;
-        readonly IAutoMapper mapper;
+        private readonly IHeroService _heroService;
+        private readonly IAutoMapper _mapper;
         public D2WebApiController(IHeroService heroService, IAutoMapper mapper)
         {
-            this.heroService = heroService;
-            this.mapper = mapper;
+            _heroService = heroService;
+            _mapper = mapper;
         }
 
         public async Task<IActionResult> Index()
@@ -42,8 +42,8 @@ namespace _1111.Controllers
 
             await GetHeroes();
 
-            var res = await heroService.GetAll();
-            var heros = mapper.Mapper.Map<List<HeroViewModel>>(res);
+            var res = await _heroService.GetAllAsync();
+            var heros = _mapper.Mapper.Map<List<HeroViewModel>>(res);
 
             return View(heros);
         }

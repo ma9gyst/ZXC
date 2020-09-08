@@ -17,7 +17,6 @@ namespace Infrastructure.Data.Entity_Framework
         public DbSet<Song> Songs { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Hero> Heroes { get; set; }
-        //public DbSet<MatchupDto> Matchups { get; set; }
 
         public DatabaseContext(DbContextOptions<DatabaseContext> options)
           : base(options)

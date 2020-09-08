@@ -21,17 +21,5 @@ namespace Infrastructure.Data.Entity_Framework.Repository
         {
             return await _databaseContext.Heroes.FirstOrDefaultAsync(c => c.Id == id);
         }
-
-        public async Task WriteAll(List<Hero> heroes) 
-        {
-            await _databaseContext.AddRangeAsync(heroes);
-            await _databaseContext.SaveChangesAsync();
-        }
-
-        public async Task DeleteAllAsync()
-        {
-            _databaseContext.Heroes.RemoveRange(_databaseContext.Heroes);
-            await _databaseContext.SaveChangesAsync();
-        }
     }
 }

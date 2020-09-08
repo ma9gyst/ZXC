@@ -14,16 +14,22 @@ namespace Services.Data
 {
     public class HeroService : IHeroService
     {
-        private IRepositoryAsync<Hero> repos;
-        readonly IAutoMapper mapper;
-        public HeroService(IRepositoryAsync<Hero> repos)
+        private readonly IRepositoryAsync<Hero> _repositoryAsync;
+        private readonly IAutoMapper _mapper;
+        public HeroService(IRepositoryAsync<Hero> repositoryAsync)
         {
-            this.repos = repos;
-            mapper = new AutoMapper.AutoMapper();
+            _repositoryAsync = repositoryAsync;
+            _mapper = new AutoMapper.AutoMapper();
         }
-        public async Task<IEnumerable<HeroDto>> GetAll()
+        public async Task<IEnumerable<HeroDto>> GetAllAsync()
         {
-            return mapper.Mapper.Map<List<HeroDto>>(await repos.ReadAllAsync());
+            return _mapper.Mapper.Map<List<HeroDto>>(await _repositoryAsync.ReadAllAsync());
+        }
+
+        public async Task WriteAllAsync(IEnumerable<HeroDto> heroesDto)
+        {
+            foreach (var hero in _mapper.Mapper.Map<List<Hero>>(heroesDto))
+                await _repositoryAsync.CreateAsync(hero);
         }
     }
 }

@@ -11,6 +11,7 @@ namespace Services.Interfaces
 {
     public interface IHeroService
     {
-        public Task<IEnumerable<HeroDto>> GetAll();
+        public Task<IEnumerable<HeroDto>> GetAllAsync();
+        public Task WriteAllAsync(IEnumerable<HeroDto> heroesDto);
     }
 }
