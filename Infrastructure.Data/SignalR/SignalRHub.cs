@@ -9,7 +9,7 @@ namespace Infrastructure.Data.SignalR
 {
     public class SignalRHub : Hub
     {
-        public Task SendMessage(User user, Message message) 
+        public Task SendMessage(AppUser user, Message message) 
         {
             return Clients.All.SendAsync("ReceiveMessage", user, message);
         }
