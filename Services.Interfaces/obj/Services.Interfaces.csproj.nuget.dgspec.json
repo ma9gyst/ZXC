@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\source\\repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {}
+    "C:\\Users\\Student\\Desktop\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
+    "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,17 +70,17 @@
         }
       }
     },
-    "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+    "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj",
         "projectName": "Domain.Interfaces",
-        "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +93,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -140,17 +140,17 @@
         }
       }
     },
-    "C:\\Users\\student\\source\\repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+    "C:\\Users\\Student\\Desktop\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\source\\repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj",
         "projectName": "Infrastructure.Data",
-        "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\source\\repos\\ZXC\\Infrastructure.Data\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\ZXC\\Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -163,11 +163,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj"
               },
-              "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj"
+              "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj"
               }
             }
           }
@@ -213,17 +213,17 @@
         }
       }
     },
-    "C:\\Users\\student\\source\\repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {
+    "C:\\Users\\Student\\Desktop\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\source\\repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj",
         "projectName": "Services.Interfaces",
-        "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\source\\repos\\ZXC\\Services.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Services.Interfaces\\Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\ZXC\\Services.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -236,8 +236,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\student\\source\\repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj": {
-                "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj"
+              "C:\\Users\\Student\\Desktop\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj"
               }
             }
           }

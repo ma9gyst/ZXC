@@ -55,3 +55,14 @@ C:\Users\student\source\repos\ZXC\Domain.Interfaces\obj\Debug\netcoreapp3.1\Doma
 C:\Users\student\source\repos\ZXC\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.csproj.CopyComplete
 C:\Users\student\source\repos\ZXC\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.dll
 C:\Users\student\source\repos\ZXC\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.pdb
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\bin\Debug\netcoreapp3.1\Domain.Interfaces.deps.json
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\bin\Debug\netcoreapp3.1\Domain.Interfaces.dll
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\bin\Debug\netcoreapp3.1\Domain.Interfaces.pdb
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\bin\Debug\netcoreapp3.1\Domain.Core.dll
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\bin\Debug\netcoreapp3.1\Domain.Core.pdb
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.AssemblyInfo.cs
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.csproj.CopyComplete
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.dll
+C:\Users\Student\Desktop\ZXC\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.pdb

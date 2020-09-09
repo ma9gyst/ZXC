@@ -1,4 +1,5 @@
-﻿using Infrastructure.Data.DTO;
+﻿using Domain.Core.Entities;
+using Infrastructure.Data.DTO;
 using Infrastructure.Data.Entity_Framework;
 using Infrastructure.Data.Entity_Framework.Repository;
 using System;
@@ -12,6 +13,7 @@ namespace Services.Interfaces
     public interface IHeroService
     {
         public Task<IEnumerable<HeroDto>> GetAllAsync();
-        public Task WriteAllAsync(IEnumerable<HeroDto> heroesDto);
+        public Task CreateAllAsync(IEnumerable<HeroDto> heroesDto);
+        public Task<Hero> GetHero(int id);
     }
 }

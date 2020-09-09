@@ -19,7 +19,6 @@ namespace Infrastructure.Data.DTO
         public string PrimaryAttr { get; set; }
         [JsonProperty("attack_type")]
         public string AttackType { get; set; }
-        public List<MatchupDto> Matchups { get; set; } = new List<MatchupDto>();
         [JsonProperty("roles")]
         [NotMapped]
         public string[] Roles { get; set; }

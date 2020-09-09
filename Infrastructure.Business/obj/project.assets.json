@@ -5801,19 +5801,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\student\\.nuget\\packages\\": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Desktop\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
       "projectName": "Infrastructure.Business",
-      "projectPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
-      "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student\\Source\\Repos\\ZXC\\Infrastructure.Business\\obj\\",
+      "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\Desktop\\ZXC\\Infrastructure.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

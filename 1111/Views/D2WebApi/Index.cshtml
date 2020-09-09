@@ -1,9 +1,9 @@
-﻿@*@model List<Infrastructure.Data.DTO.Hero>
+﻿@model List<HeroViewModel>
 
 @{
-    List<Infrastructure.Data.DTO.Hero> strList = new List<Infrastructure.Data.DTO.Hero>();
-    List<Infrastructure.Data.DTO.Hero> agiList = new List<Infrastructure.Data.DTO.Hero>();
-    List<Infrastructure.Data.DTO.Hero> intList = new List<Infrastructure.Data.DTO.Hero>();
+    List<HeroViewModel> strList = new List<HeroViewModel>();
+    List<HeroViewModel> agiList = new List<HeroViewModel>();
+    List<HeroViewModel> intList = new List<HeroViewModel>();
 
     foreach (var hero in Model)
     {
@@ -36,4 +36,4 @@
         <h4>Intelengince </h4>
     </div>
     <partial name="_HeroListPartialView" model="@intList" />
-</div>*@
+</div>

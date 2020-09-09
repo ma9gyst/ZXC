@@ -14,6 +14,8 @@ namespace Services.Data.AutoMapper
         {
             CreateMap<Hero, HeroDto>();
             CreateMap<HeroDto, Hero>();
+            CreateMap<MatchupDto, Matchup>();
+            CreateMap<Matchup, MatchupDto>();
         }
     }
 }

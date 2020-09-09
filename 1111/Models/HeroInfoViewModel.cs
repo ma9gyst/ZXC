@@ -1,4 +1,5 @@
-﻿using Infrastructure.Data.DTO;
+﻿using Domain.Core.Entities;
+using Infrastructure.Data.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,6 @@ namespace _1111.ViewModels
 {
     public class HeroInfoViewModel
     {
-        public List<MatchupDto> Matchups { get; set; }
-        public HeroDto Hero { get; set; }
+        public Hero Hero { get; set; }
     }
 }

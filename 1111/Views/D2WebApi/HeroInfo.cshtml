@@ -4,14 +4,14 @@
     ViewData["Title"] = "HeroInfo";
 }
 
-@*<div>
-    <h4>@Model.LocalizedName</h4>
-    <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@Model.FormattedName}_vert.jpg" alt="@Model.LocalizedName">
+<div>
+    <h4>@Model.Hero.LocalizedName</h4>
+    <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@Model.Hero.FormattedName}_vert.jpg" alt="@Model.Hero.LocalizedName">
     <hr />
     
 </div>
 <div>
-    @foreach (var matchup in matchups)
+    @foreach (var matchup in Model.Hero.Matchups)
     {
         var percentage = ((double)matchup.Wins / matchup.GamesPlayed) * 100;
         <p>Hero: @matchup.HeroId</p>
@@ -20,4 +20,4 @@
         <p>Win rate: @percentage%</p>
     }
     <a asp-action="Index">Back</a>
-</div>*@
+</div>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {}
+    "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
+    "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\source\\repos\\ZXC\\Domain.Core\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
