@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj": {}
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Services.Interfaces\\Services.Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj": {
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj",
+        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Core\\Domain.Core.csproj",
         "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\obj\\",
+        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj": {
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Interfaces\\Domain.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj",
-        "projectName": "Services.Interfaces",
-        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "projectName": "Domain.Interfaces",
+        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Interfaces\\Domain.Interfaces.csproj",
         "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -101,8 +101,159 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Core\\Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "projectName": "Infrastructure.Data",
+        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xxxpinktriplesix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Core\\Domain.Core.csproj"
+              },
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Interfaces\\Domain.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Services.Interfaces\\Services.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Services.Interfaces\\Services.Interfaces.csproj",
+        "projectName": "Services.Interfaces",
+        "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Services.Interfaces\\Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Services.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xxxpinktriplesix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Infrastructure.Data\\Infrastructure.Data.csproj"
               }
             }
           }

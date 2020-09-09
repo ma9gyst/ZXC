@@ -7,7 +7,7 @@ using System.Text.Json.Serialization;
 
 namespace Infrastructure.Data.DTO
 {
-    public class Hero
+    public class HeroDto
     {
         [JsonProperty("id")]
         public int Id { get; set; }
@@ -19,7 +19,6 @@ namespace Infrastructure.Data.DTO
         public string PrimaryAttr { get; set; }
         [JsonProperty("attack_type")]
         public string AttackType { get; set; }
-        public List<Matchup> Matchups { get; set; } = new List<Matchup>();
         [JsonProperty("roles")]
         [NotMapped]
         public string[] Roles { get; set; }

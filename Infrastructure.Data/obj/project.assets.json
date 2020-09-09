@@ -1559,22 +1559,6 @@
         "runtime": {
           "bin/placeholder/Domain.Interfaces.dll": {}
         }
-      },
-      "Services.Interfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Domain.Core": "1.0.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.7",
-          "Microsoft.EntityFrameworkCore": "3.1.7",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7"
-        },
-        "compile": {
-          "bin/placeholder/Services.Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Services.Interfaces.dll": {}
-        }
       }
     }
   },
@@ -5720,11 +5704,6 @@
       "type": "project",
       "path": "../Domain.Interfaces/Domain.Interfaces.csproj",
       "msbuildProject": "../Domain.Interfaces/Domain.Interfaces.csproj"
-    },
-    "Services.Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../Services.Interfaces/Services.Interfaces.csproj",
-      "msbuildProject": "../Services.Interfaces/Services.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5733,8 +5712,7 @@
       "Domain.Interfaces >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.7",
       "Microsoft.AspNetCore.SignalR.Core >= 1.1.0",
-      "Microsoft.EntityFrameworkCore >= 3.1.7",
-      "Services.Interfaces >= 1.0.0"
+      "Microsoft.EntityFrameworkCore >= 3.1.7"
     ]
   },
   "packageFolders": {
@@ -5744,11 +5722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\Infrastructure.Data.csproj",
+      "projectUniqueName": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Infrastructure.Data\\Infrastructure.Data.csproj",
       "projectName": "Infrastructure.Data",
-      "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\Infrastructure.Data.csproj",
+      "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Infrastructure.Data\\Infrastructure.Data.csproj",
       "packagesPath": "C:\\Users\\xxxpinktriplesix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Infrastructure.Data\\obj\\",
+      "outputPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Infrastructure.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5768,14 +5746,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Core\\Domain.Core.csproj"
+            "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Core\\Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Core\\Domain.Core.csproj"
             },
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Domain.Interfaces\\Domain.Interfaces.csproj"
-            },
-            "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\1212121212\\Services.Interfaces\\Services.Interfaces.csproj"
+            "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\xxxpinktriplesix\\Desktop\\22222\\Domain.Interfaces\\Domain.Interfaces.csproj"
             }
           }
         }

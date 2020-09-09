@@ -1,4 +1,4 @@
-﻿using Infrastructure.Data.DTO;
+﻿using Domain.Core.Entities;
 using Infrastructure.Data.Entity_Framework.Repository.Base;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -20,18 +20,6 @@ namespace Infrastructure.Data.Entity_Framework.Repository
         public async override Task<Hero> ReadAsync(int id)
         {
             return await _databaseContext.Heroes.FirstOrDefaultAsync(c => c.Id == id);
-        }
-
-        public async Task WriteAll(List<Hero> heroes) 
-        {
-            await _databaseContext.AddRangeAsync(heroes);
-            await _databaseContext.SaveChangesAsync();
-        }
-
-        public async Task DeleteAllAsync()
-        {
-            _databaseContext.Heroes.RemoveRange(_databaseContext.Heroes);
-            await _databaseContext.SaveChangesAsync();
         }
     }
 }

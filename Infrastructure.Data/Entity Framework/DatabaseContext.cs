@@ -5,7 +5,6 @@ using System.Text;
 using Domain.Core.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
-using Infrastructure.Data.DTO;
 
 namespace Infrastructure.Data.Entity_Framework
 {

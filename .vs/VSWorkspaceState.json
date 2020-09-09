@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\1111\\Controllers",
+    "\\1111",
     "\\1111\\Models",
     "\\1111\\ViewModels",
     "\\1111\\Views",
-    "\\1111\\Views\\Account",
     "\\Domain.Core",
     "\\Domain.Core\\Entities",
     "\\Infrastructure.Data",
