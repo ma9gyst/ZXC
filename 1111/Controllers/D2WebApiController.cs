@@ -29,7 +29,7 @@ namespace _1111.Controllers
 
         public async Task<IActionResult> Index()
         {
-            await GetHeroes();
+            await _heroService.InitializeTableHero();
             var res = await _heroService.GetAllAsync();
             return View(_mapper.Mapper.Map<List<HeroViewModel>>(res));
         }
@@ -38,27 +38,6 @@ namespace _1111.Controllers
         {
             HeroInfoViewModel heroInfo = new HeroInfoViewModel() { Hero = await _heroService.GetHero(id) };
             return View(heroInfo);
-        }
-
-        public async Task GetHeroes()
-        {
-            List<HeroDto> heroes;
-            string url = "https://api.opendota.com/api/heroes";
-
-            using (var httpClient = new HttpClient())
-            {
-                using var response = await httpClient.GetAsync(url);
-                string apiResponse = await response.Content.ReadAsStringAsync();
-                heroes = JsonConvert.DeserializeObject<List<HeroDto>>(apiResponse);
-            }
-
-            foreach (var hero in heroes)
-            {
-                hero.Id = 0;
-                hero.FormattedName = hero.Name.Replace("npc_dota_hero_", "").ToLower();
-            }
-
-            await _heroService.CreateAllAsync(heroes);
         }
     }
 }

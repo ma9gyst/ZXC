@@ -12,8 +12,8 @@ namespace Services.Interfaces
 {
     public interface IHeroService
     {
+        public Task InitializeTableHero();
         public Task<IEnumerable<HeroDto>> GetAllAsync();
-        public Task CreateAllAsync(IEnumerable<HeroDto> heroesDto);
         public Task<Hero> GetHero(int id);
     }
 }

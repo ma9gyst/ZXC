@@ -13,8 +13,9 @@
 <div>
     @foreach (var matchup in Model.Hero.Matchups)
     {
+        <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@Model.Hero.FormattedName}_vert.jpg" />
         var percentage = ((double)matchup.Wins / matchup.GamesPlayed) * 100;
-        <p>Hero: @matchup.HeroId</p>
+        @*<p>Hero: @matchup.EnemyId</p>*@
         <p>Games played: @matchup.GamesPlayed</p>
         <p>Wins: @matchup.Wins</p>
         <p>Win rate: @percentage%</p>

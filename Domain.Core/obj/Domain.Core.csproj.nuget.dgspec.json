@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj": {}
+    "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\Domain.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj": {
+    "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\Domain.Core.csproj",
+        "projectPath": "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\Domain.Core.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\ZXC\\Domain.Core\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",

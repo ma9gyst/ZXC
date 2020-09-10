@@ -5,6 +5,7 @@ using System.Text;
 using Domain.Core.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using System.Net.Http;
 
 namespace Infrastructure.Data.Entity_Framework
 {
@@ -18,6 +19,22 @@ namespace Infrastructure.Data.Entity_Framework
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Hero> Heroes { get; set; }
         public DbSet<Matchup> Matchups { get; set; }
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder) 
+        //{
+        //    modelBuilder.Entity<Hero>().HasData(new Hero[]
+        //    {
+        //        new Hero
+        //        {
+
+        //        }
+        //    });
+        //}
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseLazyLoadingProxies();
+        }
 
         public DatabaseContext(DbContextOptions<DatabaseContext> options)
           : base(options)
