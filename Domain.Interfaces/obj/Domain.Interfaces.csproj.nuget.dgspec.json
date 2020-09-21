@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Desktop\\1212121\\Domain.Interfaces\\Domain.Interfaces.csproj": {}
+    "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Interfaces\\Domain.Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\Domain.Core.csproj": {
+    "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\Domain.Core.csproj",
+        "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Core\\Domain.Core.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Student\\Desktop\\1212121\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+    "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Interfaces\\Domain.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\1212121\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Interfaces\\Domain.Interfaces.csproj",
         "projectName": "Domain.Interfaces",
-        "projectPath": "C:\\Users\\Student\\Desktop\\1212121\\Domain.Interfaces\\Domain.Interfaces.csproj",
+        "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Interfaces\\Domain.Interfaces.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\1212121\\Domain.Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Student\\Desktop\\1212121\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }

@@ -9,7 +9,6 @@ namespace Infrastructure.Data.DTO
     public class MatchupDto
     {
         public int Id { get; set; }
-        public HeroDto Hero { get; set; }
         [JsonProperty("hero_id")]
         public int HeroId { get; set; }
         [JsonProperty("games_played")]

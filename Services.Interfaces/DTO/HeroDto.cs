@@ -20,7 +20,6 @@ namespace Infrastructure.Data.DTO
         [JsonProperty("attack_type")]
         public string AttackType { get; set; }
         [JsonProperty("roles")]
-        [NotMapped]
         public string[] Roles { get; set; }
         public string FormattedName { get; set; }
         //public string PictureUri { get; set; }

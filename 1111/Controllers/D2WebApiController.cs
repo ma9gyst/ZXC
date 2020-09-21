@@ -12,6 +12,7 @@ using _1111.Models;
 using _1111.MapperProfile;
 using Infrastructure.Data.DTO;
 using _1111.ViewModels;
+using Domain.Core.Entities;
 
 namespace _1111.Controllers
 {
@@ -29,14 +30,15 @@ namespace _1111.Controllers
 
         public async Task<IActionResult> Index()
         {
-            await _heroService.InitializeTableHero();
+            await _heroService.InitializeTableHeroAsync();
             var res = await _heroService.GetAllAsync();
             return View(_mapper.Mapper.Map<List<HeroViewModel>>(res));
         }
 
         public async Task<IActionResult> HeroInfo(int id)
         {
-            HeroInfoViewModel heroInfo = new HeroInfoViewModel() { Hero = await _heroService.GetHero(id) };
+            Hero hero = await _heroService.GetHeroAsync(id);
+            HeroInfoViewModel heroInfo = new HeroInfoViewModel() { Hero = hero };
             return View(heroInfo);
         }
     }

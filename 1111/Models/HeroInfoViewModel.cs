@@ -10,5 +10,6 @@ namespace _1111.ViewModels
     public class HeroInfoViewModel
     {
         public Hero Hero { get; set; }
+        public List<Matchup> Matchups { get; set; }
     }
 }

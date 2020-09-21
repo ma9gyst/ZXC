@@ -20,17 +20,6 @@ namespace Infrastructure.Data.Entity_Framework
         public DbSet<Hero> Heroes { get; set; }
         public DbSet<Matchup> Matchups { get; set; }
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder) 
-        //{
-        //    modelBuilder.Entity<Hero>().HasData(new Hero[]
-        //    {
-        //        new Hero
-        //        {
-
-        //        }
-        //    });
-        //}
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseLazyLoadingProxies();

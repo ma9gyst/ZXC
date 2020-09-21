@@ -23,7 +23,7 @@ namespace Services.Data
             _repositoryAsync = repositoryAsync;
             _mapper = new AutoMapper.AutoMapper();
         }
-        public async Task InitializeTableHero()
+        public async Task InitializeTableHeroAsync()
         {
             if ((await _repositoryAsync.ReadAllAsync()).Count() == 0)
             {
@@ -53,36 +53,9 @@ namespace Services.Data
             return _mapper.Mapper.Map<List<HeroDto>>(await _repositoryAsync.ReadAllAsync());
         }
 
-        public async Task<Hero> GetHero(int id)
+        public async Task<Hero> GetHeroAsync(int id)
         {
-            Hero hero = await _repositoryAsync.ReadAsync(id);
-
-            if (hero.Matchups.Count == 0)
-            {
-                List<MatchupDto> matchups = new List<MatchupDto>();
-                string url = $"https://api.opendota.com/api/heroes/{id}/matchups";
-
-                using (var httpClient = new HttpClient())
-                {
-                    using var response = await httpClient.GetAsync(url);
-                    string apiResponse = await response.Content.ReadAsStringAsync();
-                    matchups = JsonConvert.DeserializeObject<List<MatchupDto>>(apiResponse);
-                }
-
-                hero.Matchups = _mapper.Mapper.Map<List<Matchup>>(matchups);
-
-                List<Matchup> matchupsLst = new List<Matchup>();
-
-                foreach (var matchup in matchups)
-                {
-                    var hero_ = await _repositoryAsync.ReadAsync(matchup.HeroId)
-                    matchupsLst.Add(_mapper.Mapper.Map<Matchup>(matchup).Hero = hero_);
-                }
-
-                
-                await _repositoryAsync.UpdateAsync(hero);
-            }
-            return _mapper.Mapper.Map<Hero>(hero);
+            return _mapper.Mapper.Map<Hero>(await _repositoryAsync.ReadAsync(id));
         }
     }
 }
