@@ -21,5 +21,11 @@ namespace Infrastructure.Data.Entity_Framework.Repository
         {
             return await _databaseContext.Matchups.FirstOrDefaultAsync(C => C.Id == id);
         }
+
+        public async Task CreateRangeAsync(List<Matchup> matchups) 
+        {
+            await _databaseContext.AddRangeAsync(matchups);
+            await _databaseContext.SaveChangesAsync();
+        }
     }
 }

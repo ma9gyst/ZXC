@@ -8,23 +8,59 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using System.Linq;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace Services.Data
 {
     class MatchupService : IMatchupService
     {
-        private readonly IRepositoryAsync<Matchup> _matchupRepositoryAsync;
+        private readonly MatchupRepositoryAsync _matchupRepositoryAsync;
+        private readonly HeroRepositoryAsync _heroRepositoryAsync;
         private readonly IAutoMapper _mapper;
 
-        public MatchupService(IRepositoryAsync<Matchup> repositoryAsync)
+        public MatchupService(IRepositoryAsync<Matchup> matchupRepositoryAsync, IRepositoryAsync<Hero> heroRepositoryAsync)
         {
-            _matchupRepositoryAsync = repositoryAsync;
+            _matchupRepositoryAsync = (MatchupRepositoryAsync)matchupRepositoryAsync;
+            _heroRepositoryAsync = (HeroRepositoryAsync)heroRepositoryAsync;
             _mapper = new AutoMapper.AutoMapper();
         }
 
-        public async Task<IEnumerable<Matchup>> GetMatchupsAsync(int id)
+        public async Task<IEnumerable<Matchup>> GetMatchupsAsync(int heroId)
         {
-            
+            List<Matchup> matchups = new List<Matchup>();
+
+            if ((await _matchupRepositoryAsync.ReadAllAsync()).FirstOrDefault(c => c.Hero.Id == heroId) == null)
+            {
+                List<MatchupDto> matchupsDto = new List<MatchupDto>();
+                
+                string url = $"https://api.opendota.com/api/heroes/{heroId}/matchups";
+
+                using (var httpClient = new HttpClient())
+                {
+                    using var response = await httpClient.GetAsync(url);
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    matchupsDto = JsonConvert.DeserializeObject<List<MatchupDto>>(apiResponse);
+                }
+
+                foreach (var matchup in matchupsDto)
+                {
+                    matchups.Add(new Matchup
+                    {
+                        Hero = await _heroRepositoryAsync.ReadAsync(heroId),
+                        Enemy = await _heroRepositoryAsync.ReadAsync(matchup.HeroId),
+                        GamesPlayed = matchup.GamesPlayed,
+                        Wins = matchup.Wins
+                    });
+                }
+
+                await _matchupRepositoryAsync.CreateRangeAsync(matchups);
+
+                return matchups;
+            }
+
+            return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId).ToList();
         }
     }
 }
