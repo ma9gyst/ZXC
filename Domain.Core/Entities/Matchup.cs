@@ -9,9 +9,10 @@ namespace Domain.Core.Entities
     {
         
         public int Id { get; set; }
-        public virtual Hero Hero { get; set; }
-        public virtual Hero Enemy { get; set; }
+        public Hero Hero { get; set; }
+        public Hero Enemy { get; set; }
         public int GamesPlayed { get; set; }
         public int Wins { get; set; }
+        public double WinRate { get; set; }
     }
 }

@@ -3,6 +3,7 @@ using Infrastructure.Data.Entity_Framework.Repository.Base;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,10 +23,14 @@ namespace Infrastructure.Data.Entity_Framework.Repository
             return await _databaseContext.Matchups.FirstOrDefaultAsync(C => C.Id == id);
         }
 
-        public async Task CreateRangeAsync(List<Matchup> matchups) 
+        public async Task CreateRangeAsync(List<Matchup> matchups)
         {
             await _databaseContext.AddRangeAsync(matchups);
             await _databaseContext.SaveChangesAsync();
+        }
+        public override async Task<IQueryable<Matchup>> ReadAllAsync()
+        {
+            return _databaseContext.Matchups.Include(c => c.Enemy).Include(c => c.Hero).AsNoTracking();
         }
     }
 }

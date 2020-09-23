@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 
 namespace Services.Data
 {
-    class MatchupService : IMatchupService
+    public class MatchupService : IMatchupService
     {
         private readonly MatchupRepositoryAsync _matchupRepositoryAsync;
         private readonly HeroRepositoryAsync _heroRepositoryAsync;
@@ -30,8 +30,8 @@ namespace Services.Data
         public async Task<IEnumerable<Matchup>> GetMatchupsAsync(int heroId)
         {
             List<Matchup> matchups = new List<Matchup>();
-
-            if ((await _matchupRepositoryAsync.ReadAllAsync()).FirstOrDefault(c => c.Hero.Id == heroId) == null)
+            var res = (await _matchupRepositoryAsync.ReadAllAsync()).FirstOrDefault(c => c.Hero.Id == heroId);
+            if (res == null)
             {
                 List<MatchupDto> matchupsDto = new List<MatchupDto>();
                 
@@ -51,7 +51,8 @@ namespace Services.Data
                         Hero = await _heroRepositoryAsync.ReadAsync(heroId),
                         Enemy = await _heroRepositoryAsync.ReadAsync(matchup.HeroId),
                         GamesPlayed = matchup.GamesPlayed,
-                        Wins = matchup.Wins
+                        Wins = matchup.Wins,
+                        WinRate = Math.Round(((double)matchup.Wins / matchup.GamesPlayed) * 100, 2)
                     });
                 }
 
@@ -60,7 +61,7 @@ namespace Services.Data
                 return matchups;
             }
 
-            return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId).ToList();
+            return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId);
         }
     }
 }

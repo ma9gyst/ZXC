@@ -20,10 +20,10 @@ namespace Infrastructure.Data.Entity_Framework
         public DbSet<Hero> Heroes { get; set; }
         public DbSet<Matchup> Matchups { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseLazyLoadingProxies();
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseLazyLoadingProxies();
+        //}
 
         public DatabaseContext(DbContextOptions<DatabaseContext> options)
           : base(options)

@@ -42,7 +42,9 @@ namespace _1111
                 options.UseSqlServer(connection));
 
             services.AddScoped(typeof(IRepositoryAsync<Hero>), typeof(HeroRepositoryAsync));
+            services.AddScoped(typeof(IRepositoryAsync<Matchup>), typeof(MatchupRepositoryAsync));
             services.AddTransient<IHeroService, HeroService>();
+            services.AddTransient<IMatchupService, MatchupService>();
             services.AddTransient<IAutoMapper, _1111.MapperProfile.AutoMapper>();
             services.AddSignalR();
         }

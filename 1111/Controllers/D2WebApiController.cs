@@ -21,10 +21,12 @@ namespace _1111.Controllers
         //private static readonly string _D2WebApiKey = "FBAA6EB0E7809A9010E7A5D0AE33EFB6";
         //private static readonly string _D2WebApiId = "205790";
         private readonly IHeroService _heroService;
+        private readonly IMatchupService _matchupService;
         private readonly IAutoMapper _mapper;
-        public D2WebApiController(IHeroService heroService, IAutoMapper mapper)
+        public D2WebApiController(IHeroService heroService, IMatchupService matchupService, IAutoMapper mapper)
         {
             _heroService = heroService;
+            _matchupService = matchupService;
             _mapper = mapper;
         }
 
@@ -37,8 +39,9 @@ namespace _1111.Controllers
 
         public async Task<IActionResult> HeroInfo(int id)
         {
-            Hero hero = await _heroService.GetHeroAsync(id);
-            HeroInfoViewModel heroInfo = new HeroInfoViewModel() { Hero = hero };
+            Hero hero = await _heroService.GetHeroAsync(id) as Hero;
+            var matchups = await _matchupService.GetMatchupsAsync(id);
+            HeroInfoViewModel heroInfo = new HeroInfoViewModel() { Hero = hero, Matchups = matchups.ToList() };
             return View(heroInfo);
         }
     }
