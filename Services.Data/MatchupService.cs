@@ -58,7 +58,7 @@ namespace Services.Data
 
                 await _matchupRepositoryAsync.CreateRangeAsync(matchups);
 
-                return matchups;
+                return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId);
             }
 
             return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId);

@@ -8,16 +8,20 @@
     <h4>@Model.Hero.LocalizedName</h4>
     <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@Model.Hero.FormattedName}_vert.jpg" alt="@Model.Hero.LocalizedName">
     <hr />
-    
+
 </div>
 <div>
     @foreach (var matchup in Model.Matchups)
     {
-        <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@matchup.Enemy.FormattedName}_vert.jpg" />
-        <p>Hero: @matchup.Enemy.LocalizedName</p>
-        <p>Games played: @matchup.GamesPlayed</p>
-        <p>Wins: @matchup.Wins</p>
-        <p>Win rate: @matchup.WinRate%</p>
+        <div>
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@matchup.Enemy.FormattedName}_vert.jpg" />
+            <div style="margin-top: -150px; color:aliceblue">
+                <p>Hero: @matchup.Enemy.LocalizedName</p>
+                @*<p>Games played: @matchup.GamesPlayed</p>
+                <p>Wins: @matchup.Wins</p>*@
+                <p>Win rate: @matchup.WinRate%</p>
+            </div>
+        </div>
     }
     <a asp-action="Index">Back</a>
 </div>
