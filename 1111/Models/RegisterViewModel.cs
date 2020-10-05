@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Http;
 
 namespace _1111.ViewModels
 {
@@ -13,8 +14,14 @@ namespace _1111.ViewModels
         public string Email { get; set; }
 
         [Required]
-        [Display(Name = "Год рождения")]
-        public int Year { get; set; }
+        [DataType(DataType.DateTime)]
+        [Display(Name = "Дата рождения")]
+        public DateTime Birthday { get; set; }
+
+
+        [Required(ErrorMessage = "Please choose profile image")]
+        [Display(Name = "Картинка")]
+        public IFormFile Image { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -26,5 +33,11 @@ namespace _1111.ViewModels
         [DataType(DataType.Password)]
         [Display(Name = "Подтвердить пароль")]
         public string PasswordConfirm { get; set; }
+
+        public bool HasImage()
+        {
+            return !String.IsNullOrWhiteSpace(Image.FileName);
+        }
+
     }
 }

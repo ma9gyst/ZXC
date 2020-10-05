@@ -64,3 +64,11 @@ C:\Users\Student\Source\Repos\ZXC2\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Co
 C:\Users\Student\Source\Repos\ZXC2\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.AssemblyInfo.cs
 C:\Users\Student\Source\Repos\ZXC2\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.dll
 C:\Users\Student\Source\Repos\ZXC2\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.pdb
+C:\Users\ALEX\Source\Repos\ZXC\Domain.Core\bin\Debug\netcoreapp3.1\Domain.Core.deps.json
+C:\Users\ALEX\Source\Repos\ZXC\Domain.Core\bin\Debug\netcoreapp3.1\Domain.Core.dll
+C:\Users\ALEX\Source\Repos\ZXC\Domain.Core\bin\Debug\netcoreapp3.1\Domain.Core.pdb
+C:\Users\ALEX\Source\Repos\ZXC\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Source\Repos\ZXC\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.AssemblyInfoInputs.cache
+C:\Users\ALEX\Source\Repos\ZXC\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.AssemblyInfo.cs
+C:\Users\ALEX\Source\Repos\ZXC\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.dll
+C:\Users\ALEX\Source\Repos\ZXC\Domain.Core\obj\Debug\netcoreapp3.1\Domain.Core.pdb

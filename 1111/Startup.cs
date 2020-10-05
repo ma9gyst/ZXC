@@ -12,6 +12,7 @@ using Infrastructure.Data.Entity_Framework.Repository.Base;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -37,9 +38,32 @@ namespace _1111
 
             // получаем строку подключения из файла конфигурации
             string connection = Configuration.GetConnectionString("DefaultConnection");
+
+
+            services.AddScoped(typeof(IRepositoryAsync<Hero>), typeof(HeroRepositoryAsync));
+
+            services.AddScoped(typeof(IRepositoryAsync<AppUser>), typeof(UserRepositoryAsync));
+
+            services.AddTransient<IUserService, UserService>();
+
+            services.AddTransient<IHeroService, HeroService>();
+
             // добавляем контекст MobileContext в качестве сервиса в приложение
             services.AddDbContext<DatabaseContext>(options =>
                 options.UseSqlServer(connection));
+
+            services.AddIdentity<AppUser, ApplicationRole>(
+    options =>
+        options.Password = new PasswordOptions
+        {
+            RequireDigit = true,
+            RequiredLength = 6,
+            RequireLowercase = true,
+            RequireUppercase = true
+        })
+                .AddEntityFrameworkStores<DatabaseContext>()
+                //.AddEntityFrameworkStores<DatabaseContext, Guid>()
+                .AddDefaultTokenProviders();
 
             services.AddScoped(typeof(IRepositoryAsync<Hero>), typeof(HeroRepositoryAsync));
             services.AddScoped(typeof(IRepositoryAsync<Matchup>), typeof(MatchupRepositoryAsync));

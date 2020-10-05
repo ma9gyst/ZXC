@@ -5801,19 +5801,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Student\\.nuget\\packages\\": {}
+    "C:\\Users\\ALEX\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Core\\Domain.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj",
       "projectName": "Domain.Core",
-      "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Core\\Domain.Core.csproj",
-      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Domain.Core\\obj\\",
+      "projectPath": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj",
+      "packagesPath": "C:\\Users\\ALEX\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ALEX\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5865,7 +5865,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

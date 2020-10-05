@@ -55,3 +55,11 @@ C:\Users\Student\Source\Repos\ZXC2\Infrastructure.Business\obj\Debug\netcoreapp3
 C:\Users\Student\Source\Repos\ZXC2\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.AssemblyInfo.cs
 C:\Users\Student\Source\Repos\ZXC2\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.dll
 C:\Users\Student\Source\Repos\ZXC2\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.pdb
+C:\Users\ALEX\Source\Repos\ZXC\Infrastructure.Business\bin\Debug\netcoreapp3.1\Infrastructure.Business.deps.json
+C:\Users\ALEX\Source\Repos\ZXC\Infrastructure.Business\bin\Debug\netcoreapp3.1\Infrastructure.Business.dll
+C:\Users\ALEX\Source\Repos\ZXC\Infrastructure.Business\bin\Debug\netcoreapp3.1\Infrastructure.Business.pdb
+C:\Users\ALEX\Source\Repos\ZXC\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Source\Repos\ZXC\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.AssemblyInfoInputs.cache
+C:\Users\ALEX\Source\Repos\ZXC\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.AssemblyInfo.cs
+C:\Users\ALEX\Source\Repos\ZXC\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.dll
+C:\Users\ALEX\Source\Repos\ZXC\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.pdb

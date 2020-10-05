@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Core.Entities;
@@ -20,6 +21,11 @@ namespace Infrastructure.Data.Entity_Framework.Repository
         public async override Task<AppUser> ReadAsync(int id)
         {
             return await _databaseContext.Users.FirstOrDefaultAsync(c => c.Id == id);
+        }
+
+        public async override Task<IQueryable<AppUser>> ReadAllAsync()
+        {
+            return GetTable().Include(c => c.Pictures).AsNoTracking();
         }
     }
 }

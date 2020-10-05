@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Infrastructure.Business\\Infrastructure.Business.csproj": {}
+    "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Infrastructure.Business\\Infrastructure.Business.csproj": {
+    "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Infrastructure.Business\\Infrastructure.Business.csproj",
+        "projectUniqueName": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
         "projectName": "Infrastructure.Business",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Infrastructure.Business\\Infrastructure.Business.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC2\\Infrastructure.Business\\obj\\",
+        "projectPath": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Infrastructure.Business\\Infrastructure.Business.csproj",
+        "packagesPath": "C:\\Users\\ALEX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Infrastructure.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALEX\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
