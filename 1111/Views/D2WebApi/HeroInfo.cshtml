@@ -1,7 +1,7 @@
 ﻿@model _1111.ViewModels.HeroInfoViewModel
-
+@*@using _1111.Models;*@
 @{
-    ViewData["Title"] = "HeroInfo";
+        ViewData["Title"] = "HeroInfo";
 }
 
 <div>
@@ -13,13 +13,13 @@
 <div>
     @foreach (var matchup in Model.Matchups)
     {
-        <div>
-            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@matchup.Enemy.FormattedName}_vert.jpg" />
-            <div style="margin-top: -150px; color:aliceblue">
-                <p>Hero: @matchup.Enemy.LocalizedName</p>
+        <div style="position: relative">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@matchup.Enemy.FormattedName}@{@Suffix.lg}" />
+            <div style="position:absolute; bottom: 8px; left: 16px">
+                <p style="color: white">@matchup.Enemy.LocalizedName</p>
                 @*<p>Games played: @matchup.GamesPlayed</p>
-                <p>Wins: @matchup.Wins</p>*@
-                <p>Win rate: @matchup.WinRate%</p>
+                    <p>Wins: @matchup.Wins</p>*@
+                <p style="color: white">@matchup.WinRate%</p>
             </div>
         </div>
     }

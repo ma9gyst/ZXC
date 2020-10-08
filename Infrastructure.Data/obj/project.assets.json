@@ -7697,19 +7697,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALEX\\.nuget\\packages\\": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\ZXC4\\Infrastructure.Data\\Infrastructure.Data.csproj",
       "projectName": "Infrastructure.Data",
-      "projectPath": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Infrastructure.Data\\Infrastructure.Data.csproj",
-      "packagesPath": "C:\\Users\\ALEX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Infrastructure.Data\\obj\\",
+      "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC4\\Infrastructure.Data\\Infrastructure.Data.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\Source\\Repos\\ZXC4\\Infrastructure.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ALEX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7722,11 +7722,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj": {
-              "projectPath": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Domain.Core\\Domain.Core.csproj"
+            "C:\\Users\\Student\\Source\\Repos\\ZXC4\\Domain.Core\\Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC4\\Domain.Core\\Domain.Core.csproj"
             },
-            "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\ALEX\\Source\\Repos\\ZXC\\Domain.Interfaces\\Domain.Interfaces.csproj"
+            "C:\\Users\\Student\\Source\\Repos\\ZXC4\\Domain.Interfaces\\Domain.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Student\\Source\\Repos\\ZXC4\\Domain.Interfaces\\Domain.Interfaces.csproj"
             }
           }
         }
@@ -7772,7 +7772,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
