@@ -72,3 +72,12 @@ C:\Users\Student\Source\Repos\ZXC4\Infrastructure.Business\obj\Debug\netcoreapp3
 C:\Users\Student\Source\Repos\ZXC4\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.csproj.CoreCompileInputs.cache
 C:\Users\Student\Source\Repos\ZXC4\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.dll
 C:\Users\Student\Source\Repos\ZXC4\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.pdb
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Business\bin\Debug\netcoreapp3.1\Infrastructure.Business.deps.json
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Business\bin\Debug\netcoreapp3.1\Infrastructure.Business.dll
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Business\bin\Debug\netcoreapp3.1\Infrastructure.Business.pdb
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.csprojAssemblyReference.cache
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.AssemblyInfoInputs.cache
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.AssemblyInfo.cs
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.csproj.CoreCompileInputs.cache
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.dll
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Business\obj\Debug\netcoreapp3.1\Infrastructure.Business.pdb

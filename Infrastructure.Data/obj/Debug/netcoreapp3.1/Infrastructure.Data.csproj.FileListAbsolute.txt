@@ -137,3 +137,17 @@ C:\Users\Student\Source\Repos\ZXC4\Infrastructure.Data\obj\Debug\netcoreapp3.1\I
 C:\Users\Student\Source\Repos\ZXC4\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csproj.CopyComplete
 C:\Users\Student\Source\Repos\ZXC4\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.dll
 C:\Users\Student\Source\Repos\ZXC4\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.pdb
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.deps.json
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.dll
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\bin\Debug\netcoreapp3.1\Infrastructure.Data.pdb
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\bin\Debug\netcoreapp3.1\Domain.Core.dll
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\bin\Debug\netcoreapp3.1\Domain.Interfaces.dll
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\bin\Debug\netcoreapp3.1\Domain.Core.pdb
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\bin\Debug\netcoreapp3.1\Domain.Interfaces.pdb
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csprojAssemblyReference.cache
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.AssemblyInfo.cs
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.csproj.CopyComplete
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.dll
+C:\Users\xxxpinktriplesix\Source\Repos\ZXC2\Infrastructure.Data\obj\Debug\netcoreapp3.1\Infrastructure.Data.pdb

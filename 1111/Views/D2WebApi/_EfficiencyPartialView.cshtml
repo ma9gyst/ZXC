@@ -1,0 +1,13 @@
+﻿@model List<Domain.Core.Entities.Matchup>
+
+<div class="row">
+    @foreach (var matchup in Model)
+    {
+        <div style="position: relative; margin: 3px 3px 3px">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@matchup.Enemy.FormattedName}@{@Suffix.Lg}" />
+            <div style="position:absolute; bottom: 0px; left: 4px">
+                <div style="color: white">Win rate: @matchup.WinRate%</div>
+            </div>
+        </div>
+    }
+</div>

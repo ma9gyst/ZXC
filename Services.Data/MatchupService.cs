@@ -58,10 +58,20 @@ namespace Services.Data
 
                 await _matchupRepositoryAsync.CreateRangeAsync(matchups);
 
-                return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId);
+                return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId).OrderBy(c => c.Enemy.LocalizedName);
             }
 
-            return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId);
+            return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId).OrderBy(c => c.Enemy.LocalizedName);
+        }
+
+        public async Task<IEnumerable<Matchup>> EfficientVersusAsync(int heroId)
+        {
+            return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId).Where(c => c.WinRate > 55).OrderByDescending(c => c.WinRate);//.Take(5).ToList();
+        }
+
+        public async Task<IEnumerable<Matchup>> InefficientVersusAsync(int heroId)
+        {
+            return (await _matchupRepositoryAsync.ReadAllAsync()).Where(c => c.Hero.Id == heroId).Where(c => c.WinRate < 45).OrderBy(c => c.WinRate);//.Take(5).ToList();
         }
     }
 }

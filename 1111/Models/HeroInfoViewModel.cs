@@ -11,5 +11,7 @@ namespace _1111.ViewModels
     {
         public Hero Hero { get; set; }
         public List<Matchup> Matchups { get; set; }
+        public List<Matchup> EfficientVersus { get; set; }
+        public List<Matchup> InefficientVersus { get; set; }
     }
 }

@@ -33,15 +33,22 @@ namespace _1111.Controllers
         public async Task<IActionResult> Index()
         {
             await _heroService.InitializeTableHeroAsync();
-            var res = await _heroService.GetAllAsync();
-            return View(_mapper.Mapper.Map<List<HeroViewModel>>(res));
+            return View(_mapper.Mapper.Map<List<HeroViewModel>>(await _heroService.GetAllOrderedByNameAsync()));
         }
 
         public async Task<IActionResult> HeroInfo(int id)
         {
-            Hero hero = await _heroService.GetHeroAsync(id) as Hero;
+            Hero hero = await _heroService.GetHeroAsync(id);
             var matchups = await _matchupService.GetMatchupsAsync(id);
-            HeroInfoViewModel heroInfo = new HeroInfoViewModel() { Hero = hero, Matchups = matchups.ToList() };
+            var efficientVersus = await _matchupService.EfficientVersusAsync(id);
+            var inefficientVersus = await _matchupService.InefficientVersusAsync(id);
+            HeroInfoViewModel heroInfo = new HeroInfoViewModel()
+            {
+                Hero = hero,
+                Matchups = matchups.ToList(),
+                EfficientVersus = efficientVersus.ToList(),
+                InefficientVersus = inefficientVersus.ToList()
+            };
             return View(heroInfo);
         }
     }

@@ -1,27 +1,36 @@
 ﻿@model _1111.ViewModels.HeroInfoViewModel
-@*@using _1111.Models;*@
+
 @{
-        ViewData["Title"] = "HeroInfo";
+    ViewData["Title"] = "HeroInfo";
+}
+
+@{
+    List<Domain.Core.Entities.Matchup> strList = new List<Domain.Core.Entities.Matchup>();
+    List<Domain.Core.Entities.Matchup> agiList = new List<Domain.Core.Entities.Matchup>();
+    List<Domain.Core.Entities.Matchup> intList = new List<Domain.Core.Entities.Matchup>();
+
+    foreach (var matchup in Model.Matchups)
+    {
+        if (matchup.Enemy.PrimaryAttr == "str")
+            strList.Add(matchup);
+        else if (matchup.Enemy.PrimaryAttr == "agi")
+            agiList.Add(matchup);
+        else if (matchup.Enemy.PrimaryAttr == "int")
+            intList.Add(matchup);
+    };
 }
 
 <div>
     <h4>@Model.Hero.LocalizedName</h4>
-    <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@Model.Hero.FormattedName}_vert.jpg" alt="@Model.Hero.LocalizedName">
-    <hr />
+    <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@Model.Hero.FormattedName}@{@Suffix.Vert}" alt="@Model.Hero.LocalizedName">
+</div>
+<hr />
 
+<div>
+    <h3>Efficient Versus</h3>
+    <partial name="_EfficiencyPartialView" model="@Model.EfficientVersus" />
 </div>
 <div>
-    @foreach (var matchup in Model.Matchups)
-    {
-        <div style="position: relative">
-            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/@{@matchup.Enemy.FormattedName}@{@Suffix.lg}" />
-            <div style="position:absolute; bottom: 8px; left: 16px">
-                <p style="color: white">@matchup.Enemy.LocalizedName</p>
-                @*<p>Games played: @matchup.GamesPlayed</p>
-                    <p>Wins: @matchup.Wins</p>*@
-                <p style="color: white">@matchup.WinRate%</p>
-            </div>
-        </div>
-    }
-    <a asp-action="Index">Back</a>
+    <h3>Inefficient Versus</h3>
+    <partial name="_EfficiencyPartialView" model="@Model.InefficientVersus" />
 </div>

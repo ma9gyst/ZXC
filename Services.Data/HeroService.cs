@@ -57,5 +57,10 @@ namespace Services.Data
         {
             return _mapper.Mapper.Map<Hero>(await _repositoryAsync.ReadAsync(id));
         }
+
+        public async Task<IEnumerable<HeroDto>> GetAllOrderedByNameAsync()
+        {
+            return _mapper.Mapper.Map<List<HeroDto>>((await _repositoryAsync.ReadAllAsync()).OrderBy(h => h.LocalizedName));
+        }
     }
 }

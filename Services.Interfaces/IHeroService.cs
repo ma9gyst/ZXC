@@ -14,6 +14,7 @@ namespace Services.Interfaces
     {
         public Task InitializeTableHeroAsync();
         public Task<IEnumerable<HeroDto>> GetAllAsync();
+        public Task<IEnumerable<HeroDto>> GetAllOrderedByNameAsync();
         public Task<Hero> GetHeroAsync(int id);
     }
 }
